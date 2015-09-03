@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/light</item>
+        <item name="android:textColorSecondary">@color/light</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="EditText" parent="@style/TextView" />
+
+    <style name="TextView.Label" parent="@style/TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+
+    </style>
+
+</resources>
